@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGENS DINAMICAS </title>
+</head>
+<body>
+    <H1>IMAGENS DINAMICAS </H1>
+        <PIcture> 
+            <source media="(max-width: 750px)" srcset="imagens/imagem p .png " type="image/png">
+            <source media="(max-width:1050px )" srcset="imagens/imagem m .png" type="image/png">
+            <img src="imagens/imagem g .png" alt="imagens flexivel">
+          
+        </PIcture>
+    <h1>reproduzindo audio </h1>
+    <p>vamos aprender a reproduzir audio no html 5 </p>
+    <audio src="midias/(I've Got A) Baby Sister - Reed Mathis.mp3" autoplay  controls></audio>
+    <!-- mp3 wav ocg -->
+    <audio preload="auto" autoplay controls>
+      <source src="midias/(I've Got A) Baby Sister - Reed Mathis.mp3" type="audio/mpeg">
+      <source src="midias/(I've Got A) Baby Sister - Reed Mathis.ogg" type="audio/mpeg">
+      <source src="midias/(I've Got A) Baby Sister - Reed Mathis.wav" type="audio/mpeg">
+      <p> infelizmente seu navegador não e capaz de reproduzir o arquivo 
+     <a href="midias/"> clique aqui para baixar o arquivo </a> </p>
+
+
+      <!-- outra forma de carregar audios no navegador seria colocando formatos diferentes para o que o na
+    vegador seja capaz de reproduzir o arquivo em sequÊncia--> 
+
+    </audio>
+
+</body>
+</html>
