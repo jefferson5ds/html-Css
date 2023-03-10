@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* todas as medias */ 
+/* typical  device  break points*/
+
+@media print { /*  impressão*/
+    
+}
+@media screen and (min-width: 768px) and (max-width : 992px)  {
+}/* tablet*/
+
+body{
+    background-image: url(../imagens/back-tablet.jpg);
+
+    img#phone {display: none;}
+    img#tablet { display: block;}
+    img#print {display: none;}
+    img#icon-pc {display: none;}
+    img#icon-tv {display: none;}
+}
+@media screen and (min-width: 768px) and (max-width : 992px) { 
+    
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    
+        img#phone {display: none;}
+        img#tablet { display: block;}
+        img#print {display: none;}
+        img#icon-pc {display: none;}
+        img#icon-tv {display: none;}
+}
+    
